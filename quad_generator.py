@@ -1,3 +1,5 @@
+#author -> Nishok
+#quad generator that generate points inside
 from random import random
 import csv
 
@@ -46,4 +48,5 @@ def quad_generator(p1, p2, p3, p4):
 
 result=quad_generator([0,0,0,0],[1,0,0,0],[0,1,0,0],[0,0,0,1])
 for i in range(5):
+
     print(next(result))
